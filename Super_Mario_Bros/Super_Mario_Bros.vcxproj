@@ -130,6 +130,53 @@
   <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\DoAn\SuperMarioBros\SuperMarioBros\Animation.h" />
+    <ClInclude Include="..\..\..\DoAn\SuperMarioBros\SuperMarioBros\AnimationFrame.h" />
+    <ClInclude Include="..\..\..\DoAn\SuperMarioBros\SuperMarioBros\Animations.h" />
+    <ClInclude Include="..\..\..\DoAn\SuperMarioBros\SuperMarioBros\AssetIDs.h" />
+    <ClInclude Include="..\..\..\DoAn\SuperMarioBros\SuperMarioBros\Brick.h" />
+    <ClInclude Include="..\..\..\DoAn\SuperMarioBros\SuperMarioBros\Coin.h" />
+    <ClInclude Include="..\..\..\DoAn\SuperMarioBros\SuperMarioBros\Collision.h" />
+    <ClInclude Include="..\..\..\DoAn\SuperMarioBros\SuperMarioBros\debug.h" />
+    <ClInclude Include="..\..\..\DoAn\SuperMarioBros\SuperMarioBros\Game.h" />
+    <ClInclude Include="..\..\..\DoAn\SuperMarioBros\SuperMarioBros\GameObject.h" />
+    <ClInclude Include="..\..\..\DoAn\SuperMarioBros\SuperMarioBros\Goomba.h" />
+    <ClInclude Include="..\..\..\DoAn\SuperMarioBros\SuperMarioBros\KeyEventHandler.h" />
+    <ClInclude Include="..\..\..\DoAn\SuperMarioBros\SuperMarioBros\Mario.h" />
+    <ClInclude Include="..\..\..\DoAn\SuperMarioBros\SuperMarioBros\Platform.h" />
+    <ClInclude Include="..\..\..\DoAn\SuperMarioBros\SuperMarioBros\PlayScene.h" />
+    <ClInclude Include="..\..\..\DoAn\SuperMarioBros\SuperMarioBros\Portal.h" />
+    <ClInclude Include="..\..\..\DoAn\SuperMarioBros\SuperMarioBros\SampleKeyEventHandler.h" />
+    <ClInclude Include="..\..\..\DoAn\SuperMarioBros\SuperMarioBros\Scene.h" />
+    <ClInclude Include="..\..\..\DoAn\SuperMarioBros\SuperMarioBros\Sprite.h" />
+    <ClInclude Include="..\..\..\DoAn\SuperMarioBros\SuperMarioBros\Sprites.h" />
+    <ClInclude Include="..\..\..\DoAn\SuperMarioBros\SuperMarioBros\Texture.h" />
+    <ClInclude Include="..\..\..\DoAn\SuperMarioBros\SuperMarioBros\Textures.h" />
+    <ClInclude Include="..\..\..\DoAn\SuperMarioBros\SuperMarioBros\Utils.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\DoAn\SuperMarioBros\SuperMarioBros\Animation.cpp" />
+    <ClCompile Include="..\..\..\DoAn\SuperMarioBros\SuperMarioBros\Animations.cpp" />
+    <ClCompile Include="..\..\..\DoAn\SuperMarioBros\SuperMarioBros\Brick.cpp" />
+    <ClCompile Include="..\..\..\DoAn\SuperMarioBros\SuperMarioBros\Coin.cpp" />
+    <ClCompile Include="..\..\..\DoAn\SuperMarioBros\SuperMarioBros\Collision.cpp" />
+    <ClCompile Include="..\..\..\DoAn\SuperMarioBros\SuperMarioBros\debug.cpp" />
+    <ClCompile Include="..\..\..\DoAn\SuperMarioBros\SuperMarioBros\Game.cpp" />
+    <ClCompile Include="..\..\..\DoAn\SuperMarioBros\SuperMarioBros\GameObject.cpp" />
+    <ClCompile Include="..\..\..\DoAn\SuperMarioBros\SuperMarioBros\Goomba.cpp" />
+    <ClCompile Include="..\..\..\DoAn\SuperMarioBros\SuperMarioBros\main.cpp" />
+    <ClCompile Include="..\..\..\DoAn\SuperMarioBros\SuperMarioBros\Mario.cpp" />
+    <ClCompile Include="..\..\..\DoAn\SuperMarioBros\SuperMarioBros\Platform.cpp" />
+    <ClCompile Include="..\..\..\DoAn\SuperMarioBros\SuperMarioBros\PlayScene.cpp" />
+    <ClCompile Include="..\..\..\DoAn\SuperMarioBros\SuperMarioBros\Portal.cpp" />
+    <ClCompile Include="..\..\..\DoAn\SuperMarioBros\SuperMarioBros\SampleKeyEventHandler.cpp" />
+    <ClCompile Include="..\..\..\DoAn\SuperMarioBros\SuperMarioBros\Scence.cpp" />
+    <ClCompile Include="..\..\..\DoAn\SuperMarioBros\SuperMarioBros\Sprite.cpp" />
+    <ClCompile Include="..\..\..\DoAn\SuperMarioBros\SuperMarioBros\Sprites.cpp" />
+    <ClCompile Include="..\..\..\DoAn\SuperMarioBros\SuperMarioBros\Textures.cpp" />
+    <ClCompile Include="..\..\..\DoAn\SuperMarioBros\SuperMarioBros\Utils.cpp" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
     <Import Project="..\packages\Microsoft.DXSDK.D3DX.9.29.952.8\build\native\Microsoft.DXSDK.D3DX.targets" Condition="Exists('..\packages\Microsoft.DXSDK.D3DX.9.29.952.8\build\native\Microsoft.DXSDK.D3DX.targets')" />
